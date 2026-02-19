@@ -2,7 +2,7 @@
 
 > Part of [PostFlows](https://github.com/postflows) toolkit for DaVinci Resolve
 
-Organize Media Pool clips into bins by type (Video, Audio, Timeline, Compound, Fusion, etc.) and optionally by keywords.
+Organize Media Pool clips into bins by type (Video, Audio, Timeline, Compound, Fusion, etc.) and optionally by keywords. **Lua** script (canonical version).
 
 ## What it does
 
@@ -15,10 +15,12 @@ Select media types via checkboxes, choose folders to process (root, selected bin
 
 ## Installation
 
-Copy the script to:
+Copy the **`media-organizer.lua`** file to:
 
 - **macOS:** `~/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/`
 - **Windows:** `C:\ProgramData\Blackmagic Design\DaVinci Resolve\Fusion\Scripts\`
+
+Run from **Workspace → Scripts** in Resolve (or from the Fusion page Scripts menu).
 
 ## Usage
 
